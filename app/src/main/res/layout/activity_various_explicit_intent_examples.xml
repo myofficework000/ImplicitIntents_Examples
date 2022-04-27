@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/default_padding"
+    android:background="#F4A7E9"
+    tools:context=".VariousExplicitIntentExamples">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/call"
+        android:id="@+id/button_call"
+        android:textStyle="bold"
+        android:textSize="@dimen/large_text"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/call_log"
+        android:id="@+id/button_call_log"
+        android:textStyle="bold"
+        android:textSize="@dimen/large_text"
+        app:layout_constraintTop_toBottomOf="@+id/button_call"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/contact"
+        android:id="@+id/button_contacts"
+        android:textStyle="bold"
+        android:textSize="@dimen/large_text"
+        app:layout_constraintTop_toBottomOf="@+id/button_call_log"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/browser"
+        android:id="@+id/button_browser"
+        android:textStyle="bold"
+        android:textSize="@dimen/large_text"
+        app:layout_constraintTop_toBottomOf="@+id/button_contacts"
+        />
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/gallery"
+        android:id="@+id/button_gallery"
+        android:textStyle="bold"
+        android:textSize="@dimen/large_text"
+        app:layout_constraintTop_toBottomOf="@+id/button_browser"
+        />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/camera"
+        android:id="@+id/button_camera"
+        android:textStyle="bold"
+        android:textSize="@dimen/large_text"
+        app:layout_constraintTop_toBottomOf="@+id/button_gallery"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/alarm"
+        android:id="@+id/button_alarm"
+        android:textStyle="bold"
+        android:textSize="@dimen/large_text"
+        app:layout_constraintTop_toBottomOf="@+id/button_camera"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

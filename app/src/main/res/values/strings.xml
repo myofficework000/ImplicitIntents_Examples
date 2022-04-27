@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Intents</string>
+    <string name="terms"><u> Read terms and condition before login.. </u></string>
+    <string name="call">Call</string>
+    <string name="call_log">Call log</string>
+    <string name="contact">Contacts</string>
+    <string name="browser">Brwoser</string>
+    <string name="gallery">Gallary</string>
+    <string name="camera">Camera</string>
+    <string name="alarm">Alarm</string>
+</resources>
